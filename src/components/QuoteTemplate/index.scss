@@ -1,0 +1,162 @@
+.outer-border {
+	header {
+		display: flex !important;
+		justify-content: left;
+		align-items: left;
+		padding: 10px;
+	}
+	header .brand {
+		display: flex;
+		align-items: center;
+	}
+	
+	header .brand .brand-logo {
+		width: 55px;
+		height: 40px;
+		overflow: hidden;
+		margin: 0px 0px;
+	}
+	
+	header .brand .brand-logo img {
+		width: 45px;
+		height: 40px;
+		margin-bottom: 40px;
+	}
+	
+	header .brand h1 {
+		font-size: 30px;
+		font-weight: 600;
+		margin: 0px 0px;
+	}
+	
+	.top-address p {
+		font-style: normal;
+		line-height: 11.5px;
+		color: rgba(64, 68, 77, 1);
+		font-size: 9px;
+	}
+	
+	.quote-detail .date span {
+		font-style: normal;
+		line-height: 5.5px;
+		justify-content: space-between;
+		font-size: 10px;
+	}
+	
+	.quote-detail {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.quote-detail .quote-detail-left {
+		max-width: 600px;
+		font-size: 10px;
+	}
+	
+	.quote-address span {
+		font-weight: bold;
+	}
+	
+	.quote-address {
+		text-align: right;
+		line-height: 22.5px;
+	}
+	
+	.date {
+		padding: 10px 10px 10px 10px;
+		font-weight: bold;
+		width: 100%;
+	}
+	
+	.date2 {
+		font-weight: bold;
+		width: 100%;
+		float: left;
+		margin: 0px 0px;
+	}
+	
+	.date table {
+		float: right;
+	}
+	
+	.product-date {
+		float: left;
+	}
+	
+	.product-date table {
+		padding: 10px;
+	}
+	.product-date th,
+	.product-date td {
+		padding: 5px;
+	}
+	
+	.product {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: 10px;
+	}
+	
+	.product td, .product th {
+		border-bottom: 1px solid rgba(112, 117, 128, 1);
+		padding: 10px;
+	}
+
+	.product th {
+		font-size: 8px;
+		font-weight: 700;
+	}
+	
+	.product .lighter {
+		border-bottom: 0.5px solid #cccccc;
+	}
+	
+	.lighter {
+		border-bottom: 0.5px solid #cccccc;
+	}
+	
+	.auto-style19 {
+		float: right;
+		text-align: right;
+		width: 100%;
+		padding: 10px;
+		border-collapse: collapse;
+	}
+	
+	.red {
+		color: rgba(222, 43, 43, 1);
+	}
+	
+	.sign {
+		width: 25%;
+		float: right;
+		margin: 0px;
+		border-collapse: collapse;
+		border: 1px solid #cccccc;
+	}
+	.top-address {
+		width: 100%;
+	}
+	.top-address hr {
+		height: 1px;
+		color: black;
+		background-color: black;
+		margin-top: 7px;
+		width: 100%;
+	}
+	
+	.dark {
+		font-weight: bold;
+	}
+	.auto-style29 {
+		color: rgba(222, 43, 43, 1);
+		text-align: left;
+	}
+	.auto-style30 {
+		border-bottom: 1px solid #cccccc;
+		text-align: left;
+	}
+	.auto-style31 {
+		text-align: left;
+	}	
+}
